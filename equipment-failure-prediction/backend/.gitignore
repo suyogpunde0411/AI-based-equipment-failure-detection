@@ -1,0 +1,45 @@
+### Spring Boot ###
+HELP.md
+target/
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### Environment ###
+.env
+application-local.yml
+application-dev.yml
+
+### Logs ###
+logs/
+*.log
+
+### OS Files ###
+.DS_Store
+Thumbs.db
