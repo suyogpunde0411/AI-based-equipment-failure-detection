@@ -1,0 +1,5 @@
+equipmentId,airTemperature,processTemperature,rotationalSpeed,torque,toolWear
+1,300,310,1500,40,120
+1,305,315,1450,42,130
+1,320,330,1000,65,250
+1,290,300,1700,35,90

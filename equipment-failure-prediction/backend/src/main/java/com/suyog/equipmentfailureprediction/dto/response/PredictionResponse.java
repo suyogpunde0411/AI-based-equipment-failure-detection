@@ -1,14 +1,20 @@
 package com.suyog.equipmentfailureprediction.dto.response;
 
 import com.suyog.equipmentfailureprediction.enums.RiskLevel;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class PredictionResponse {
+
+    private Long predictionId;
+
+    private String equipmentName;
 
     private Boolean failure;
 
@@ -20,8 +26,9 @@ public class PredictionResponse {
 
     private RiskLevel riskLevel;
 
-    private List<String> recommendations;
-
     private List<String> topFactors;
 
+    private List<String> recommendations;
+
+    private LocalDateTime predictionTime;
 }

@@ -18,7 +18,12 @@ CREATE TABLE prediction_history
 
     model_used VARCHAR(50),
 
+    top_factors TEXT,
+
+    recommendations TEXT,
+
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
 
     CONSTRAINT fk_prediction_equipment
         FOREIGN KEY (equipment_id)
