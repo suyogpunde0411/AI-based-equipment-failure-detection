@@ -43,4 +43,5 @@ public class Equipment {
     private LocalDateTime createdAt;
     @OneToMany(mappedBy = "equipment", cascade = CascadeType.ALL, orphanRemoval = true)
     private java.util.List<PredictionHistory> predictionHistories;
+    
 }
